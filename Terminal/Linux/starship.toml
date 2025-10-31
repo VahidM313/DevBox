@@ -26,73 +26,155 @@ truncation_symbol = "…/"
 truncate_to_repo = true
 
 [aws]
-symbol = "  "
+symbol = " "
+style = "bold #FF9900"  # AWS orange, inspired by AWS branding
 
 [buf]
-symbol = " "
+symbol = "🦬 "
+style = "bold #00A3E0"  # Blue, inspired by Buf's branding
+
+[bun]
+symbol = " "
+style = "bold #F7DDA4"  # Light yellow, inspired by Bun's branding
 
 [c]
 symbol = " "
+style = "bold #00599C"  # Blue, commonly associated with C programming
+
+[cpp]
+symbol = " "
+style = "bold #00599C"  # Blue, matching C for consistency
+
+[cmake]
+symbol = " "
+style = "bold #DA2A2A"  # Red, inspired by CMake's logo
 
 [conda]
-symbol = " "
+symbol = "🅒 "
+style = "bold #44A833"  # Green, inspired by Anaconda's branding
 
 [dart]
 symbol = " "
+style = "bold #00B4AB"  # Teal, inspired by Dart's branding
 
 [docker_context]
-symbol = " "
+symbol = " "
+style = "bold #2496ED"  # Blue, inspired by Docker's branding
 
 [elixir]
 symbol = " "
+style = "bold #6E4A7E"  # Purple, inspired by Elixir's branding
 
 [elm]
 symbol = " "
+style = "bold #60B5CC"  # Light blue, inspired by Elm's branding
 
 [fossil_branch]
-symbol = " "
+symbol = "🦎 "
+style = "bold #4A4A4A"  # Gray, neutral for Fossil version control
 
 [git_branch]
-symbol = " "
+symbol = " "
+style = "bold #F05033"  # Red-orange, inspired by Git's branding
+
+[git_commit]
+tag_symbol = "🏷 "
+style = "bold #F05033"  # Matches git_branch for consistency
+format = '[#$hash]($style) '
+commit_hash_length = 8
+
+[git_metrics]
+added_style = 'bold #F05033'
+deleted_style = 'bold #F05033'
+format = '([+$added]($added_style) [-$deleted]($deleted_style)) '
+disabled = false
+
+[git_state]
+style = "bold #F05033"  # Matches git_branch for consistency
+
+[git_status]
+style = "bold #F05033"  # Matches git_branch for consistency
 
 [golang]
 symbol = " "
+style = "bold #00ADD8"  # Cyan, inspired by Go's branding
 
 [guix_shell]
-symbol = " "
+symbol = "🐃 "
+style = "bold #F4A261"  # Orange, inspired by Guix's branding
 
 [haskell]
 symbol = " "
+style = "bold #5E5086"  # Purple, inspired by Haskell's branding
 
 [haxe]
 symbol = "⌘ "
+style = "bold #EA8220"  # Orange, inspired by Haxe's branding
 
 [hg_branch]
-symbol = " "
+symbol = "☿ "
+style = "bold #888888"  # Gray, neutral for Mercurial
 
 [java]
-symbol = " "
+symbol = " "
+style = "bold #D32F2F"  # Red, inspired by Java's branding
 
 [julia]
 symbol = " "
+style = "bold #9558B2"  # Purple, inspired by Julia's branding
 
 [lua]
 symbol = " "
+style = "bold #2D2DAA"  # Blue, inspired by Lua's branding
 
 [memory_usage]
-symbol = " "
+symbol = "🧠 "
+style = "bold #FF5722"  # Orange-red, indicating system resource usage
 
 [meson]
 symbol = "喝 "
+style = "bold #008000"  # Green, neutral for Meson build system
 
 [nim]
-symbol = " "
+symbol = " "
+style = "bold #FFE953"  # Yellow, inspired by Nim's branding
 
 [nix_shell]
-symbol = " "
+symbol = "󱄅 "
+style = "bold #5277C3"  # Blue, inspired by NixOS branding
 
 [nodejs]
-symbol = " "
+symbol = " "
+style = "bold #68A063"  # Green, inspired by Node.js branding
+
+[package]
+symbol = " "
+style = "bold #FF4081"  # Pink, neutral for packages
+
+
+[python]
+symbol = " "
+style = "bold #3776AB"  # Blue, inspired by Python's branding
+
+[rlang]
+symbol = " "
+style = "bold #1F77B4"  # Blue, inspired by R's branding
+
+[ruby]
+symbol = " "
+style = "bold #CC342D"  # Red, inspired by Ruby's branding
+
+[rust]
+symbol = " "
+style = "bold #CE422B"  # Orange-red, inspired by Rust's branding
+
+[scala]
+symbol = " "
+style = "bold #DC322F"  # Red, inspired by Scala’s branding
+
+[spack]
+symbol = "🅢 "
+style = "bold #4CAF50"  # Green, neutral for Spack
 
 [os.symbols]
 Alpine = " "
@@ -131,27 +213,3 @@ SUSE = " "
 Ubuntu = " "
 Unknown = " "
 Windows = " "
-
-[package]
-symbol = " "
-
-[pijul_channel]
-symbol = "🪺 "
-
-[python]
-symbol = " "
-
-[rlang]
-symbol = "ﳒ "
-
-[ruby]
-symbol = " "
-
-[rust]
-symbol = " "
-
-[scala]
-symbol = " "
-
-[spack]
-symbol = "🅢 "
