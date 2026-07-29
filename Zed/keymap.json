@@ -1,19 +1,19 @@
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
-      "insert": [
-        "task::Spawn",
-        {
-          "task_name": "Run Code"
-        }
-      ]
-    }
-  },
-  {
-    "bindings": {
-      "shift-t": "workspace::NewCenterTerminal"
-    }
-  }
+   {
+      "context": "Workspace",
+      "bindings": {
+         // "shift shift": "file_finder::Toggle"
+         "insert": [
+            "task::Spawn",
+            {
+               "task_name": "Run Code",
+            },
+         ],
+      },
+   },
+   {
+      "bindings": {
+         "shift-t": "workspace::NewCenterTerminal",
+      },
+   },
 ]
