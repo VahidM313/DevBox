@@ -1,4 +1,5 @@
 {
+   "buffer_font_family": "CaskaydiaCove Nerd Font",
    "cli_default_open_behavior": "existing_window",
    "prettier": {
       "allowed": true
@@ -48,7 +49,6 @@
       "dock": "left",
       "show_count_badge": true,
       "default_width": 300,
-      "sort_by_path": false,
       "collapse_untracked_diff": false
    },
    "git": {
@@ -76,8 +76,8 @@
    "show_wrap_guides": true,
    "icon_theme": "Symbols Icon Theme",
    "ui_font_size": 16,
-   "buffer_font_size": 15.5,
-   "buffer_font_weight": 500.0,
+   "buffer_font_size": 15.0,
+   "buffer_font_weight": 400.0,
    "ui_font_weight": 450,
    "cursor_shape": "bar",
    "use_smartcase_search": true,
