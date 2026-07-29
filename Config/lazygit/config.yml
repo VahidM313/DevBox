@@ -1,0 +1,12 @@
+customCommands:
+  - key: "C"
+    context: "files"
+    description: "AI Commit"
+    command: "bun run scripts/ai-commit.ts --qwen35"
+    output: terminal
+
+  - key: "c"
+    context: "files"
+    description: "AI Commit (auto)"
+    command: "bun run scripts/ai-commit.ts -y --qwen35"
+    output: terminal
