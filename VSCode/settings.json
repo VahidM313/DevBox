@@ -1,0 +1,145 @@
+{
+  "files.autoSave": "afterDelay",
+  "diffEditor.wordWrap": "on",
+
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.wordWrap": "bounded",
+  "editor.fontSize": 15.5,
+  "editor.fontWeight": "400",
+  "editor.minimap.enabled": false,
+  "editor.allowVariableFontsInAccessibilityMode": true,
+  "editor.bracketPairColorization.enabled": true,
+  // "editor.guides.bracketPairs": "active",
+  "editor.wrapOnEscapedLineFeeds": true,
+  "editor.wrappingIndent": "indent",
+  "editor.wrappingStrategy": "advanced",
+  "editor.lineHeight": 1.4,
+  "editor.letterSpacing": 0.2,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 3,
+
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.gpuAcceleration": "on",
+
+  "window.restoreFullscreen": true,
+  "window.systemColorTheme": "dark",
+  "window.autoDetectColorScheme": false,
+  "window.controlsStyle": "custom",
+
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://zed.dev/schema/": true,
+  },
+
+  "workbench.activityBar.location": "bottom",
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "VM313 Dark",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#e7e7e7b8",
+    "editorBracketHighlight.foreground2": "#e7e7e7b8",
+    "editorBracketHighlight.foreground3": "#e7e7e7b8",
+    "editorBracketHighlight.foreground4": "#e7e7e7b8",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#e7e7e7b8",
+  },
+
+  "indentRainbow.errorColor": "rgba(0, 0, 0, 0)",
+  "indentRainbow.colors": [
+    "rgba(10, 67, 112, 0.25)",
+    "rgba(108, 52, 18, 0.25)",
+    "rgba(95, 35, 73, 0.25)",
+    "rgba(85, 105, 49, 0.25)",
+  ],
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "indentRainbow.colorOnWhiteSpaceOnly": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true,
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true,
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[jsonl]": {
+    "editor.quickSuggestions": {
+      "strings": true,
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[css]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
+  },
+
+  "js/ts.experimental.useTsgo": true,
+  "js/ts.autoClosingTags.enabled": true,
+  "js/ts.suggest.autoImports": true,
+  "js/ts.tsserver.maxMemory": 3072,
+
+  "oxc.enable.oxfmt": true,
+  "oxc.enable.oxlint": true,
+  "oxc.fixKind": "safe_fix",
+  "oxc.trace.server": "verbose",
+}

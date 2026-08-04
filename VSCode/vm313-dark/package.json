@@ -1,0 +1,26 @@
+{
+  "name": "vm313-dark",
+  "displayName": "VM313 Dark",
+  "description": "Vahid Theme",
+  "publisher": "Vahid",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "vsce package --allow-missing-repository",
+    "install": "code --install-extension vm313-dark-0.0.2.vsix"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "VM313 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VM313 Dark-color-theme.json"
+      }
+    ]
+  }
+}

@@ -61,4 +61,11 @@
       "use_new_terminal": false,
       "allow_concurrent_runs": false,
    },
+   {
+      "label": "Format Comment Banner",
+      "command": "python C:\\tools\\banner.py \"$ZED_SELECTED_TEXT\"",
+      "use_new_terminal": false,
+      "allow_concurrent_runs": false,
+      "reveal": "never",
+   },
 ]

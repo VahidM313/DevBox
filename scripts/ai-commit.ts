@@ -4,7 +4,7 @@ import { $ } from "bun";
 
 const LM_STUDIO_URL =
   process.env.LM_STUDIO_URL ??
-  "http://localhost:1234/v1/chat/completions";
+  "http://localhost:8585/v1/chat/completions";
 
 const MODEL = process.env.LM_STUDIO_MODEL ?? "qwen2.5-coder-7b-instruct";
 

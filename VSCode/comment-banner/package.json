@@ -1,0 +1,66 @@
+{
+  "name": "comment-banner",
+  "displayName": "Comment Banner",
+  "description": "Turn the current line into an aligned banner comment, e.g. // ─── Generic strings ───────────────────",
+  "version": "0.1.0",
+  "publisher": "Vahid",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:commentBanner.insert"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "commentBanner.insert",
+        "title": "Comment Banner: Insert / Update Banner on Current Line"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "commentBanner.insert",
+        "key": "ctrl+alt+b",
+        "mac": "cmd+alt+b",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "Comment Banner",
+      "properties": {
+        "commentBanner.lineLength": {
+          "type": "number",
+          "default": 0,
+          "description": "Target width for the banner in characters. 0 = auto (use editor.rulers[0] for the file, falling back to 80)."
+        },
+        "commentBanner.fillChar": {
+          "type": "string",
+          "default": "─",
+          "description": "Character used to fill the banner."
+        },
+        "commentBanner.padding": {
+          "type": "string",
+          "default": " ",
+          "description": "Character(s) inserted around the label, e.g. '// ─── label ───'."
+        },
+        "commentBanner.languageComments": {
+          "type": "object",
+          "default": {},
+          "description": "Override or add comment styles per languageId, e.g. { \"mylang\": { \"start\": \";;\", \"end\": \"\" } }."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

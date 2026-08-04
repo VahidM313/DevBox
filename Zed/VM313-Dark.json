@@ -1,16 +1,16 @@
 {
    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-   "name": "VM313 Blur",
+   "name": "VM313 Dark",
    "author": "Vahid Mohammadi (base on Vesper Blur by Taras Tereschenko (based on Vesper by Rauno Freiberg))",
    "themes": [
       {
-         "name": "VahidM313 Blur",
+         "name": "VahidM313 Dark",
          "appearance": "dark",
          "style": {
-            "background.appearance": "blurred",
+            "background.appearance": "opaque",
 
-            "background": "#101010b8",
-            "surface.background": "#101010b8",
+            "background": "#101010",
+            "surface.background": "#101010",
             "elevated_surface.background": "#161616",
 
             "border": "#00000000",
@@ -45,9 +45,9 @@
             "icon.placeholder": "#7E7E7E",
             "icon.accent": "#2b7da3",
 
-            "status_bar.background": "#101010b8",
-            "title_bar.background": "#101010b8",
-            "title_bar.inactive_background": "#101010b8",
+            "status_bar.background": "#101010",
+            "title_bar.background": "#101010",
+            "title_bar.inactive_background": "#101010",
 
             "toolbar.background": "#00000000",
             "tab_bar.background": "#00000000",

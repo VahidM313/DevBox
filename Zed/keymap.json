@@ -16,4 +16,13 @@
          "shift-t": "workspace::NewCenterTerminal",
       },
    },
+   {
+      "context": "Editor",
+      "bindings": {
+         "ctrl-alt-b": [
+            "task::Spawn",
+            { "task_name": "Format Comment Banner" },
+         ],
+      },
+   },
 ]
